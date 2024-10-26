@@ -13,7 +13,7 @@
 .menu__nav {
   width: 100%;
   max-width: 500px;
-  padding: 15px;
+  padding: 14px;
   margin: auto;
   border-radius: 50px;
   box-shadow: rgba(253, 253, 253, 0.24) 0px 3px 8px;
@@ -23,17 +23,16 @@
 }
 
 .menu__logo {
-  padding: 5px;
+  padding: 6px;
   border-radius: 10px;
-  border: 1px solid var(--color-dark);
   font-family: var(--font-bebas-nevue);
+  font-size: 24px;
   transition: all 0.3s;
   cursor: pointer;
 }
 
 .menu__logo:hover {
   color: var(--color-light);
-  border-color: var(--color-light);
   background-color: var(--color-dark);
 }
 
