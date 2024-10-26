@@ -16,6 +16,9 @@
   --color-dark: #000000;
   --color-light: #ffff;
   --color-light-secondary: #e2dfd0;
+
+  --theme-dark: #000000;
+  --theme-light: #fff;
 }
 
 * {
