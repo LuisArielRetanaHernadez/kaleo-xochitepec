@@ -3,10 +3,13 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
+// layout
+import Menu from './layouts/Menu/Menu.layout'
+
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <h1 >Menu</h1>,
+    element: <Menu />,
     children: [
       {
         path: '/home',

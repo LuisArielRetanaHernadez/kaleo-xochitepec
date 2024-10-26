@@ -1,0 +1,39 @@
+.menu {
+  width: 100vw;
+  max-width: 100%;
+  background-color: red;
+}
+
+.menu__content-nav {
+  padding: 15px;
+  background-color: #000;
+  display: flex;
+}
+
+.menu__nav {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 50px;
+  box-shadow: rgba(253, 253, 253, 0.24) 0px 3px 8px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+/* list menu */
+
+.menu__list {
+  display: flex;
+  gap: 10px;
+}
+
+.menu__content-nav .menu__list {
+  margin: auto;
+}
+
+.menu__link {
+  color: #000;
+  font-weight: 700;
+}
