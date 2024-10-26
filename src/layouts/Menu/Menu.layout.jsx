@@ -7,7 +7,7 @@ const Menu = () => {
     <div className="menu">
       <div className="menu__content-nav">
         <nav className="menu__nav">
-          <h2 className="logo menu__logo">Logo</h2>
+          <h2 className="logo menu__logo">Kaleo</h2>
           <ul className="menu__list">
             <li className="menu__item">
               <Link to="/home" className="link menu__link">Home</Link>

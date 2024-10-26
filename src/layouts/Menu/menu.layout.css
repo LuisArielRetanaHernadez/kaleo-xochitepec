@@ -22,6 +22,21 @@
   align-items: center;
 }
 
+.menu__logo {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid var(--color-dark);
+  font-family: var(--font-bebas-nevue);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.menu__logo:hover {
+  color: var(--color-light);
+  border-color: var(--color-light);
+  background-color: var(--color-dark);
+}
+
 /* list menu */
 
 .menu__list {
@@ -35,5 +50,7 @@
 
 .menu__link {
   color: #000;
-  font-weight: 700;
+  font-family: var(--font-robot);
+  font-weight: var(--font-weight-700);
+  font-size: 18px;
 }

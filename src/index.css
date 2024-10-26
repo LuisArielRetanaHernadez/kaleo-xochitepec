@@ -13,9 +13,9 @@
 
   --font-style-italic: italic;
 
-  --color-dark: 000000;
-  --color-light: FFFF;
-  --color-light-secondary: E2DFD0;
+  --color-dark: #000000;
+  --color-light: #ffff;
+  --color-light-secondary: #e2dfd0;
 }
 
 * {
