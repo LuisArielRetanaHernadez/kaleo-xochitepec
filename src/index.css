@@ -35,3 +35,23 @@ ol {
 .link {
   text-decoration: none;
 }
+
+.down-arrow {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: var(--color-light);
+}
+
+.down-arrow_type-efect {
+  animation: down-arrow 0.5s infinite alternate;
+}
+
+@keyframes down-arrow {
+  from {
+    bottom: 30px;
+  }
+  to {
+    bottom: 15px;
+  }
+}

@@ -60,3 +60,9 @@
   background-color: #000000;
   backdrop-filter: blur(10px);
 }
+
+.header__down-arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+}

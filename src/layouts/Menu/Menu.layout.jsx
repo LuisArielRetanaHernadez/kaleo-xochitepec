@@ -23,9 +23,7 @@ const Menu = () => {
         </nav>
       </div>
       <Header />
-      <div>
-        <Outlet />
-      </div>
+      <Outlet />
     </div>
   )
 }
