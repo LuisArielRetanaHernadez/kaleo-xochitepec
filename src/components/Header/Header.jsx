@@ -12,7 +12,7 @@ const Header = () => {
       <div className='header__content-video'>
         <img className='header__video' src='https://res.cloudinary.com/dqmkovsdy/image/upload/f_auto,q_auto/v1/Kaleo/Header/rwcyaqjquyn670jjuwg0'></img>
       </div>
-      <span className='down-arrow down-arrow_type-efect header__down-arrow'>baja</span>
+      {/* <span className='down-arrow down-arrow_type-efect header__down-arrow'>baja</span> */}
 
     </div>
   )
