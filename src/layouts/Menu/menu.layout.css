@@ -6,9 +6,13 @@
 }
 
 .menu__content-nav {
+  width: 100%;
   padding: 15px;
-  background-color: #000;
+  /* background-color: gray; */
   display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 20;
 }
 
 .menu__nav {

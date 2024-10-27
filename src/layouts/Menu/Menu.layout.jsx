@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom"
 
 import "./menu.layout.css"
+import Header from "../../components/Header/Header"
 
 const Menu = () => {
   return (
@@ -21,7 +22,7 @@ const Menu = () => {
           </ul>
         </nav>
       </div>
-
+      <Header />
       <div>
         <Outlet />
       </div>
